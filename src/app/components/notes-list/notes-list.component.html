@@ -3,7 +3,7 @@
     <input matInput placeholder="Search" [(ngModel)]="searchTerm">
   </mat-form-field>
 </div>
-<mat-grid-list cols="5" rowHeight="170px" class="grid-list">
+<mat-grid-list cols="3" rowHeight="2:1" class="grid-list">
   <mat-grid-tile
       *ngFor="let note of notes | search:searchTerm">
     <note 

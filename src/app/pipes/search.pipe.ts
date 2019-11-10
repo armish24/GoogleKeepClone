@@ -11,6 +11,7 @@ export class SearchPipe implements PipeTransform {
     const search = searchTerm.toLowerCase();
     return notes.filter(note => (
       note.title.toLowerCase().includes(search) ||
+      note.label.toLowerCase().includes(search) ||
       note.description.toLowerCase().includes(search)
     ));
   }

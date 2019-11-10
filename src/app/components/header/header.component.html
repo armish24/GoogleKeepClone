@@ -1,7 +1,33 @@
-<mat-toolbar color="primary" class="header">
+<!-- <mat-toolbar color="warn" class="header">
   <mat-toolbar-row>
     <span>Angular Keep</span>
     <a mat-flat-button color="primary" class="nav-link" [routerLink]="['/']">Dashboard</a>
     <a mat-flat-button color="primary" class="nav-link" [routerLink]="['/archive']">Archive</a>
   </mat-toolbar-row>
-</mat-toolbar>
+</mat-toolbar> -->
+
+<script>
+  console.log('hello');
+</script>
+<header>
+  <nav class="nav-container">
+      <div class="nav-wraper">
+          <a class="logo" href="#!"><b>Google</b> keep</a>
+          <div class="search-container">
+              <i class="material-icons">
+                  search
+              </i>
+              <input type="text" name="search" class="search-box" placeholder="Search">
+          </div>
+          <ul class="items">
+            <a mat-flat-button color="primary" class="nav-link" [routerLink]="['/']">Dashboard</a>
+            <a mat-flat-button color="primary" class="nav-link" [routerLink]="['/archive']">Archive</a>
+             
+              <li><a href="#login"><i class="material-icons">
+                          person
+                      </i></a></li>
+          </ul>
+      </div>
+  </nav>
+</header>
+
