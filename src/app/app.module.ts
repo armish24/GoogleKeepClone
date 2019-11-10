@@ -17,6 +17,7 @@ import { NoteComponent } from './components/note/note.component';
 import { FormsModule } from '@angular/forms';
 import { ArchiveComponent } from './components/archive/archive.component';
 import { SearchPipe } from './pipes/search.pipe';
+//import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { SearchPipe } from './pipes/search.pipe';
     BrowserAnimationsModule,
     MaterialComponentsModule,
     NoteCreateModule,
+    //FlexLayoutModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     ),

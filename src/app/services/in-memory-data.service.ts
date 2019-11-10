@@ -11,15 +11,16 @@ export class InMemoryDataService implements InMemoryDbService {
       { 
         id: 11,
         title: 'Mr. Nice',
-        description: 'Some description',
-        label: 'hello',
+        description: 'Some description but this is very nice project',
+        label: 'hello world',
         isDone: false,
         isArchived: true,
       },
       { 
         id: 12,
         title: 'Narco',
-        description: 'Some description',
+        description: 'Some description but this is very nice project',
+        label: 'human',
         isDone: false,
         isArchived: false,
       },
@@ -72,7 +73,7 @@ export class InMemoryDataService implements InMemoryDbService {
         isDone: false,
         isArchived: false,
       },
-      { 
+      {
         id: 20,
         title: 'Tornado',
         description: 'Some description',

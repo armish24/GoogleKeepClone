@@ -2,6 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Note } from '../../interfaces/note';
 import { Router } from '@angular/router';
 
+
+
 @Component({
   selector: 'note',
   templateUrl: './note.component.html',
